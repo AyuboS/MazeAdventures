@@ -5,14 +5,20 @@ using UnityEngine.UIElements;
 
 public class playerController : MonoBehaviour
 {
-
+    private const float impulseVelocity = 25f;
     public float speed;
     public Camera cam;
     public Collider planeCollider;
     RaycastHit hit;
     Ray ray;
+    Rigidbody rb;
 
-    void Update()
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    void FixedUpdate()
     {
         ray = cam.ScreenPointToRay(Input.mousePosition);
 
@@ -20,10 +26,14 @@ public class playerController : MonoBehaviour
         {
             if (hit.collider == planeCollider)
             {
-                transform.position = Vector3.MoveTowards(transform.position, hit.point, Time.deltaTime * speed);
-                transform.LookAt(new Vector3(hit.point.x, transform.position.y, hit.point.z));
+                // Calculate the force to apply to the ball.
+                Vector3 force = (hit.point - transform.position).normalized * speed;
 
+                // Add the force to the ball's rigidbody.
+                GetComponent<Rigidbody>().AddForce(force);
             }
         }
     }
+
+
 }
