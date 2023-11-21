@@ -11,11 +11,12 @@ public class playerController : MonoBehaviour
     public Collider planeCollider;
     RaycastHit hit;
     Ray ray;
-    Rigidbody rb;
-
+    public Rigidbody rb;
+    Animator animator;
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+        animator = GetComponent<Animator>();
     }
 
     void FixedUpdate()
@@ -33,7 +34,17 @@ public class playerController : MonoBehaviour
                 GetComponent<Rigidbody>().AddForce(force);
             }
         }
+
+        
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Plane"))
+        {
+            animator.enabled = false;
+            Debug.Log("isStartAnimDone set 2, 1 ");
+        }
+    }
 
 }

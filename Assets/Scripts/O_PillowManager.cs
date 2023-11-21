@@ -4,22 +4,17 @@ using UnityEngine;
 
 public class O_PillowManager : MonoBehaviour
 {
-    private const float Angle = 2f;
-    public float speed = 1.19f;
-    Vector3 pointA;
-    Vector3 pointB;
+    public float Angle = 2f;
+    public float speed = 0.5f;
+    public Vector3 pointA = new Vector3(-15f, 0.65f, 9.5f);
+    public Vector3 pointB = new Vector3(-15f, 0.65f, 10.8f);
 
-    void Start()
-    {
-        pointA = new Vector3(-9.5f, -0.4f, 23.75f);
-        pointB = new Vector3(-9.5f, -0.4f, 24.5f);
-    }
     private void FixedUpdate()
     {
         transform.Rotate(Vector3.up * Time.fixedDeltaTime, Angle);
 
-        //float time = Mathf.PingPong(Time.time * speed, 1);
-        //transform.position = Vector3.Lerp(pointA, pointB, time);
+        float time = Mathf.PingPong(Time.time * speed, 1);
+        transform.position = Vector3.Lerp(pointA, pointB, time);
     }
 }
 
