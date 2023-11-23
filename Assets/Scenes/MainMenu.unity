@@ -531,8 +531,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52
-  m_fontSizeBase: 52
+  m_fontSize: 78
+  m_fontSizeBase: 78
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
@@ -722,8 +722,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 630.4044, y: 259}
-  m_SizeDelta: {x: 300, y: 70}
+  m_AnchoredPosition: {x: 625, y: 200}
+  m_SizeDelta: {x: 450, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1091419550
 MonoBehaviour:
@@ -746,10 +746,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.13787772, g: 0.12281949, b: 0.7075472, a: 0.23529412}
-    m_HighlightedColor: {r: 0.13725491, g: 0.12156863, b: 0.7058824, a: 0.3529412}
-    m_PressedColor: {r: 0.13725491, g: 0.12156863, b: 0.7058824, a: 1}
-    m_SelectedColor: {r: 0.13725491, g: 0.12156863, b: 0.7058824, a: 1}
+    m_NormalColor: {r: 0.16862746, g: 0.30980393, b: 0.42352945, a: 0.39215687}
+    m_HighlightedColor: {r: 0.13725491, g: 0.12156863, b: 0.7058824, a: 0.078431375}
+    m_PressedColor: {r: 0.13725491, g: 0.12156863, b: 0.7058824, a: 0.11764706}
+    m_SelectedColor: {r: 0.13725491, g: 0.12156863, b: 0.7058824, a: 0.15686275}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -877,7 +877,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 70f770a65029f954eb1be6cd1df94fa8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a03dd010022dbe4999efe47f5e01c3b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -932,8 +932,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 630.4044, y: 370}
-  m_SizeDelta: {x: 300, y: 70}
+  m_AnchoredPosition: {x: 625, y: 300}
+  m_SizeDelta: {x: 450, y: 105}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1416791424
 MonoBehaviour:
@@ -956,10 +956,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.13787772, g: 0.12281949, b: 0.7075472, a: 0.23529412}
-    m_HighlightedColor: {r: 0.13725491, g: 0.12156863, b: 0.7058824, a: 0.3529412}
-    m_PressedColor: {r: 0.13725491, g: 0.12156863, b: 0.7058824, a: 1}
-    m_SelectedColor: {r: 0.13725491, g: 0.12156863, b: 0.7058824, a: 1}
+    m_NormalColor: {r: 0.20000002, g: 0.33333334, b: 0.454902, a: 0.78431374}
+    m_HighlightedColor: {r: 0.13725491, g: 0.12156863, b: 0.7058824, a: 0.078431375}
+    m_PressedColor: {r: 0.13725491, g: 0.12156863, b: 0.7058824, a: 0.11764706}
+    m_SelectedColor: {r: 0.13725491, g: 0.12156863, b: 0.7058824, a: 0.15686275}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1040,6 +1040,7 @@ GameObject:
   - component: {fileID: 1499605780}
   - component: {fileID: 1499605782}
   - component: {fileID: 1499605781}
+  - component: {fileID: 1499605783}
   m_Layer: 0
   m_Name: MazeAdventure
   m_TagString: Untagged
@@ -1064,7 +1065,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 638, y: 529}
+  m_AnchoredPosition: {x: 625, y: 600}
   m_SizeDelta: {x: 400, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1499605781
@@ -1096,8 +1097,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278245631
-  m_fontColor: {r: 1, g: 0.84586376, b: 0, a: 1}
+    rgba: 8702659
+  m_fontColor: {r: 0.7644659, g: 0.7924528, b: 0.5195799, a: 0}
   m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
@@ -1164,6 +1165,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1499605779}
   m_CullTransparentMesh: 1
+--- !u!95 &1499605783
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499605779}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ab77a99ed775df347b992beb325d0771, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1633137394
 GameObject:
   m_ObjectHideFlags: 0
@@ -1278,8 +1300,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278245374
+  m_fontColor: {r: 0.9960785, g: 0.8431373, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1296,8 +1318,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 52
-  m_fontSizeBase: 52
+  m_fontSize: 78
+  m_fontSizeBase: 78
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0

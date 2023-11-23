@@ -30,7 +30,7 @@ public class cameraController : MonoBehaviour
         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
         transform.position = smoothedPosition;
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             if (camPosition == CamPosition.Initial)
             {
@@ -52,6 +52,10 @@ public class cameraController : MonoBehaviour
         
     }
 
+    //private void FixedUpdate()
+    //{
+    //    transform.Rotate(Vector3.up * Time.deltaTime * 50f);
+    //}
     private void UpdateRotation(Quaternion rotation)
     {
         if (Quaternion.Angle(transform.rotation, rotation) < 0.1f){

@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Plane
+  - Obstacle
+  - StartPosObj
+  - Spring
   layers:
   - Default
   - TransparentFX
