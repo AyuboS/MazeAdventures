@@ -6,14 +6,17 @@ using UnityEngine;
 public class PlayerDamageManager : MonoBehaviour
 {
     [SerializeField] playerController PlayerController;
-
+    [SerializeField] GameObject P_GameOver;
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
-            PlayerController.enabled = false;
+
             Renderer playerRenderer = GetComponent<Renderer>();
             StartCoroutine(DissolvePlayer(playerRenderer));
+            PlayerController.enabled = false;
+            P_GameOver.SetActive(true);
+
         }
     }
 
@@ -30,6 +33,8 @@ public class PlayerDamageManager : MonoBehaviour
 
             yield return new WaitForSeconds(0.01f); // Wait for a small amount of time before increasing the dissolve value again
         }
+
+        Time.timeScale = 0;
     }
 
 }

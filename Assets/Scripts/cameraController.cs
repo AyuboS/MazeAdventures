@@ -52,6 +52,10 @@ public class cameraController : MonoBehaviour
         
     }
 
+    //private void FixedUpdate()
+    //{
+    //    transform.Rotate(Vector3.up * Time.deltaTime * 50f);
+    //}
     private void UpdateRotation(Quaternion rotation)
     {
         if (Quaternion.Angle(transform.rotation, rotation) < 0.1f){
