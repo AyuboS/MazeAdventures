@@ -26,8 +26,8 @@ Transform:
   m_GameObject: {fileID: 3060657322918499513}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -15.06833, y: 0.649, z: -15.534}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4141175457267605278}
   - {fileID: 3830157008402684297}
@@ -46,9 +46,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26fe51c085bf7c04d947215ffa09f60c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ballDestorTime: 0.1
   cannonBallPrefab: {fileID: 6539456744028979114, guid: ac2bb4ce2a1edbf408164cf8b6f0f4e7, type: 3}
   cannonBallSpawnPoint: {fileID: 3830157008402684297}
-  cannonBallSpeed: 20
+  cannonBallSpeed: 22
   fireRate: 4
 --- !u!1 &4880067450079609231
 GameObject:

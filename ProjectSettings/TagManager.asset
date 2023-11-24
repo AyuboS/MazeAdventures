@@ -8,6 +8,8 @@ TagManager:
   - Obstacle
   - StartPosObj
   - Spring
+  - Wall
+  - CannonBall
   layers:
   - Default
   - TransparentFX

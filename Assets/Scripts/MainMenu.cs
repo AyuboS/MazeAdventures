@@ -6,9 +6,16 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
 
-    private void Awake()
+    void Update()
     {
-        Screen.orientation = ScreenOrientation.LandscapeLeft;
+        if (Screen.orientation == ScreenOrientation.Portrait)
+        {
+            // Set up portrait layout
+        }
+        else if (Screen.orientation == ScreenOrientation.LandscapeLeft || Screen.orientation == ScreenOrientation.LandscapeRight)
+        {
+            // Set up landscape layout
+        }
     }
     public void PlayGame()
    {

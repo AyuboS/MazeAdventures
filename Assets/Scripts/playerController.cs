@@ -4,12 +4,19 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.EventSystems;
 
+
+
+
 public class playerController : MonoBehaviour
 {
+
     private const float impulseVelocity = 25f;
-    public float speed;
+    public float speed = 2f;
+
+
+    //public float speed;
     public Camera cam;
-    public Collider planeCollider;
+    //public Collider planeCollider;
     RaycastHit hit;
     Ray ray;
     public Rigidbody rb;
@@ -20,10 +27,11 @@ public class playerController : MonoBehaviour
 
     protected bool Jump;
 
+
     private void Awake()
     {
         Time.timeScale = 1;
-        Screen.orientation = ScreenOrientation.LandscapeLeft;
+        //Screen.orientation = ScreenOrientation.LandscapeLeft;
     }
     private void Start()
     {
@@ -67,36 +75,26 @@ public class playerController : MonoBehaviour
     //    // Update rigidbody velocity
     //    rb.velocity = movementDirection;
 
-    //    // Handle jumping logic
-    //    if (!Jump && JoyManager.Pressed)
-    //    {
-    //        Jump = true;
-    //        rb.velocity += Vector3.up * 8f;
-    //    }
-    //    else if (Jump && !JoyManager.Pressed)
-    //    {
-    //        Jump = false;
-    //    }
+    //    //// Handle jumping logic
+    //    //if (!Jump && JoyManager.Pressed)
+    //    //{
+    //    //    Jump = true;
+    //    //    rb.velocity += Vector3.up * 8f;
+    //    //}
+    //    //else if (Jump && !JoyManager.Pressed)
+    //    //{
+    //    //    Jump = false;
+    //    //}
     //}
-
 
     void Update()
     {
-        rb.velocity = new Vector3(Joystick.Horizontal * 3f,
-         rb.velocity.y, Joystick.Vertical * 3f);
+        Vector3 movementDirection = new Vector3(Joystick.Horizontal, 0, Joystick.Vertical);
 
-        //if (!Jump && JoyManager.Pressed)
-        //{
-        //    Jump = true;
-        //    rb.velocity += Vector3.up * 8f;
-        //}
-        //if (Jump && !JoyManager.Pressed)
-        //{
-        //    Jump = false;
-        //}
-
-
+        // Apply movement directly to transform position
+        transform.position += movementDirection * speed * Time.deltaTime;
     }
+
 
 
 
@@ -107,13 +105,22 @@ public class playerController : MonoBehaviour
             animator.enabled = false;
             Debug.Log("isStartAnimDone set 2, 1 ");
         }
-    }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Spring"))
+        if (collision.gameObject.CompareTag("Wall"))
         {
-            rb.AddForce(Vector3.up * 7f, ForceMode.Impulse);
+            rb.velocity = Vector3.zero; // Set velocity to zero to prevent further movement
+            rb.angularVelocity = Vector3.zero; // Set angular velocity to zero to prevent rotation
+
+
         }
+
     }
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.CompareTag("Spring"))
+            {
+                rb.AddForce(Vector3.up * 7f, ForceMode.Impulse);
+            }
+        }
+    
 }

@@ -1,9 +1,2 @@
 
 Unity.Burst.Editor.csproj
-
-
-Logs/
-obj/
-Temp/
-Build/
-Library/

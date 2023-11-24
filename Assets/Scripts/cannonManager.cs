@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CannonManager : MonoBehaviour
 {
-
+    public float ballDestorTime = 0.3f;
     [SerializeField] GameObject cannonBallPrefab;
     [SerializeField] Transform cannonBallSpawnPoint;
 
@@ -17,6 +17,7 @@ public class CannonManager : MonoBehaviour
         StartCoroutine(FireCannonBalls());
     }
 
+    
     IEnumerator FireCannonBalls()
     {
         while (true)
@@ -26,6 +27,9 @@ public class CannonManager : MonoBehaviour
         }
     }
 
+
+
+    
     void FireCannonBall()
     {
         GameObject cannonBall = Instantiate(cannonBallPrefab, cannonBallSpawnPoint.position, cannonBallSpawnPoint.rotation);
@@ -43,7 +47,7 @@ public class CannonManager : MonoBehaviour
 
     IEnumerator DestroyCannonBall(GameObject ball)
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(ballDestorTime);
         Destroy(ball);
     }
 }
