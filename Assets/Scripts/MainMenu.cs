@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-
+    [SerializeField] GameObject[] buttons;
+    [SerializeField] GameObject S_L;
+    [SerializeField] GameObject L;
     void Update()
     {
         if (Screen.orientation == ScreenOrientation.Portrait)
@@ -19,7 +22,14 @@ public class MainMenu : MonoBehaviour
     }
     public void PlayGame()
    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
+        foreach (GameObject button in buttons)
+        {
+            buttons[0].SetActive(false);
+            buttons[1].SetActive(false);
+        }
+
+        S_L.SetActive(true);
+        L.SetActive(true);
    }
    public void QuitGame()
    {

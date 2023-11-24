@@ -89,6 +89,15 @@ public class playerController : MonoBehaviour
 
     void Update()
     {
+
+        if (Screen.orientation == ScreenOrientation.Portrait)
+        {
+            // Set up portrait layout
+        }
+        else if (Screen.orientation == ScreenOrientation.LandscapeLeft || Screen.orientation == ScreenOrientation.LandscapeRight)
+        {
+            // Set up landscape layout
+        }
         Vector3 movementDirection = new Vector3(Joystick.Horizontal, 0, Joystick.Vertical);
 
         // Apply movement directly to transform position
