@@ -11,10 +11,14 @@ public class MainMenu : MonoBehaviour
         Screen.orientation = ScreenOrientation.LandscapeLeft;
     }
     public void PlayGame()
-   {
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
-   }
-   public void QuitGame()
+    }
+    public void PlayGame(int i)
+    {
+        SceneManager.LoadScene(i);
+    }
+    public void QuitGame()
    {
         Application.Quit();
    }
