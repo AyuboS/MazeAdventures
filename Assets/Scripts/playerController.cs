@@ -11,8 +11,8 @@ public class playerController : MonoBehaviour
 {
 
     private const float impulseVelocity = 25f;
-    public float speed = 2f;
 
+    public float speed = 2f;
 
     //public float speed;
     public Camera cam;
@@ -31,7 +31,6 @@ public class playerController : MonoBehaviour
     private void Awake()
     {
         Time.timeScale = 1;
-        //Screen.orientation = ScreenOrientation.LandscapeLeft;
     }
     private void Start()
     {
@@ -39,7 +38,7 @@ public class playerController : MonoBehaviour
         animator = GetComponent<Animator>();
 
         Joystick = FindObjectOfType<Joystick>();
-        //JoyManager = FindObjectOfType<JoystickManager>();
+
     }
 
     //void FixedUpdate()
@@ -103,6 +102,11 @@ public class playerController : MonoBehaviour
         // Apply movement directly to transform position
         transform.position += movementDirection * speed * Time.deltaTime;
     }
+
+
+
+
+
 
 
 
