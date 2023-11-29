@@ -86,25 +86,17 @@ public class playerController : MonoBehaviour
     //    //}
     //}
 
-    void Update()
+
+    void FixedUpdate()
     {
-
-        if (Screen.orientation == ScreenOrientation.Portrait)
-        {
-            // Set up portrait layout
-        }
-        else if (Screen.orientation == ScreenOrientation.LandscapeLeft || Screen.orientation == ScreenOrientation.LandscapeRight)
-        {
-            // Set up landscape layout
-        }
         Vector3 movementDirection = new Vector3(Joystick.Horizontal, 0, Joystick.Vertical);
-
-        // Apply movement directly to transform position
-        transform.position += movementDirection * speed * Time.deltaTime;
+        ray = new Ray(transform.position, movementDirection);
+        if (Physics.Raycast(ray, out hit))
+        {
+            Vector3 force = (hit.point - transform.position).normalized * speed;
+            rb.AddForce(force);
+        }
     }
-
-
-
 
 
 
@@ -123,17 +115,15 @@ public class playerController : MonoBehaviour
         {
             rb.velocity = Vector3.zero; // Set velocity to zero to prevent further movement
             rb.angularVelocity = Vector3.zero; // Set angular velocity to zero to prevent rotation
-
-
         }
 
     }
-        private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Spring"))
         {
-            if (other.gameObject.CompareTag("Spring"))
-            {
-                rb.AddForce(Vector3.up * 7f, ForceMode.Impulse);
-            }
+            rb.AddForce(Vector3.up * 7f, ForceMode.Impulse);
         }
-    
+    }
+
 }

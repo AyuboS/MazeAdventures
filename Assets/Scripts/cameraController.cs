@@ -1,27 +1,38 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    public Transform playerTransform;
     public Vector3 offset = new Vector3(0, 2, -5);
-    public float smoothRotationSpeed = 0.125f;
+    public float smoothFollowSpeed = 5f;
+    public float smoothRotationSpeed = 5f;
     public float targetRotationX = 30f;
 
-    private Transform playerTransform;
     private Quaternion initialRotation;
 
     void Start()
     {
         initialRotation = transform.rotation;
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+
+        if (playerTransform == null)
+        {
+            playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+        }
     }
 
-    void LateUpdate()
+    void FixedUpdate()
     {
+        if (playerTransform == null)
+        {
+            return; // Return early if playerTransform is not assigned
+        }
+
+        // Smoothly follow the player position
         Vector3 desiredPosition = playerTransform.position + offset;
-        transform.position = Vector3.Lerp(transform.position, desiredPosition, smoothRotationSpeed);
-        Quaternion targetRotation = Quaternion.Euler(targetRotationX, 0f, 0f);
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, smoothRotationSpeed);
+        transform.position = Vector3.Lerp(transform.position, desiredPosition, Time.fixedDeltaTime * smoothFollowSpeed);
+
+        // Prevent camera rotation by setting it back to its initial rotation
+        transform.rotation = initialRotation;
     }
+
 }
