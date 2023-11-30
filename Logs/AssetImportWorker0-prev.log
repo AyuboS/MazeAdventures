@@ -15,7 +15,7 @@ C:/Users/Odiljon/Desktop/Maze/MazeAdventures
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49570
+57701
 Successfully changed project path to: C:/Users/Odiljon/Desktop/Maze/MazeAdventures
 C:/Users/Odiljon/Desktop/Maze/MazeAdventures
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Odiljon/Desktop/Maze/MazeAdventures
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [25220] Host "[IP] 192.168.144.1 [Port] 0 [Flags] 2 [Guid] 4006129292 [EditorId] 4006129292 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0E9IIM8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3660] Host "[IP] 192.168.144.1 [Port] 0 [Flags] 2 [Guid] 1389962897 [EditorId] 1389962897 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0E9IIM8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [25220] Host "[IP] 192.168.144.1 [Port] 0 [Flags] 2 [Guid] 4006129292 [EditorId] 4006129292 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0E9IIM8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3660] Host "[IP] 192.168.144.1 [Port] 0 [Flags] 2 [Guid] 1389962897 [EditorId] 1389962897 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0E9IIM8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 42.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.3f1 (7cdc2969a641)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.045158 seconds.
-- Loaded All Assemblies, in  1.572 seconds
+Registered in 0.089503 seconds.
+- Loaded All Assemblies, in  3.591 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1844 ms
+Android Extension - Scanning For ADB Devices 2150 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.934 seconds
-Domain Reload Profiling: 4498ms
-	BeginReloadAssembly (473ms)
+- Finished resetting the current domain, in  3.239 seconds
+Domain Reload Profiling: 6813ms
+	BeginReloadAssembly (667ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (3ms)
-	RebuildCommonClasses (214ms)
-	RebuildNativeTypeToScriptingClass (44ms)
-	initialDomainReloadingComplete (241ms)
-	LoadAllAssembliesAndSetupDomain (591ms)
-		LoadAssemblies (468ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (545ms)
+	RebuildNativeTypeToScriptingClass (125ms)
+	initialDomainReloadingComplete (622ms)
+	LoadAllAssembliesAndSetupDomain (1613ms)
+		LoadAssemblies (667ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (570ms)
-			TypeCache.Refresh (565ms)
-				TypeCache.ScanAssembly (515ms)
-			ScanForSourceGeneratedMonoScriptInfo (3ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (2935ms)
+		AnalyzeDomain (1543ms)
+			TypeCache.Refresh (1532ms)
+				TypeCache.ScanAssembly (1422ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (3239ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2675ms)
+		SetupLoadedEditorAssemblies (2901ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2200ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (2594ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (325ms)
-			ProcessInitializeOnLoadMethodAttributes (133ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.957 seconds
-Refreshing native plugins compatible for Editor in 42.27 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.802 seconds
+Refreshing native plugins compatible for Editor in 7.31 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -129,48 +129,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.589 seconds
-Domain Reload Profiling: 5536ms
-	BeginReloadAssembly (399ms)
+- Finished resetting the current domain, in  2.452 seconds
+Domain Reload Profiling: 4248ms
+	BeginReloadAssembly (264ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (65ms)
-	RebuildCommonClasses (108ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (148ms)
-	LoadAllAssembliesAndSetupDomain (2258ms)
-		LoadAssemblies (948ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (1356ms)
+		LoadAssemblies (644ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1482ms)
-			TypeCache.Refresh (1112ms)
-				TypeCache.ScanAssembly (993ms)
-			ScanForSourceGeneratedMonoScriptInfo (230ms)
-			ResolveRequiredComponents (140ms)
-	FinalizeReload (2590ms)
+		AnalyzeDomain (837ms)
+			TypeCache.Refresh (773ms)
+				TypeCache.ScanAssembly (744ms)
+			ScanForSourceGeneratedMonoScriptInfo (45ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2453ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1695ms)
+		SetupLoadedEditorAssemblies (1328ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (80ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (351ms)
-			ProcessInitializeOnLoadAttributes (1034ms)
-			ProcessInitializeOnLoadMethodAttributes (193ms)
-			AfterProcessingInitializeOnLoad (25ms)
+			BeforeProcessingInitializeOnLoad (265ms)
+			ProcessInitializeOnLoadAttributes (790ms)
+			ProcessInitializeOnLoadMethodAttributes (178ms)
+			AfterProcessingInitializeOnLoad (18ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.45 seconds
-Refreshing native plugins compatible for Editor in 11.10 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 9.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5610 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (1.1 MB). Loaded Objects now: 6092.
-Memory consumption went from 233.4 MB to 232.3 MB.
-Total: 8.715300 ms (FindLiveObjects: 0.742800 ms CreateObjectMapping: 1.172200 ms MarkObjects: 6.278900 ms  DeleteObjects: 0.519500 ms)
+Unloading 5611 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (1.2 MB). Loaded Objects now: 6094.
+Memory consumption went from 233.5 MB to 232.2 MB.
+Total: 6.382800 ms (FindLiveObjects: 0.803000 ms CreateObjectMapping: 0.942700 ms MarkObjects: 4.129200 ms  DeleteObjects: 0.506500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -185,148 +185,378 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 426708.315369 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/ground_road.tga
-  artifactKey: Guid(39e424b8c7b659e4d8c792f40deccbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/ground_road.tga using Guid(39e424b8c7b659e4d8c792f40deccbf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2c1a6f295b30909d85962f10934fef') in 0.031998 seconds
+  Time since last request: 447399.569273 seconds.
+  path: Assets/Scenes/Night Level.unity
+  artifactKey: Guid(e2edd082ddcb1db43975e11f85920652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Night Level.unity using Guid(e2edd082ddcb1db43975e11f85920652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b49202ee7fc8176b2981692112d1325') in 0.007450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.388150 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(a6b127e2f12c8bd42af39b752066cbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(a6b127e2f12c8bd42af39b752066cbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d54ee2e70cce261a8c83064bf4d747') in 0.001217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.135194 seconds.
+  path: Assets/Hand Painted Seamless Grass Texture
+  artifactKey: Guid(3d3486cb4e2986b4f944143b89235760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Seamless Grass Texture using Guid(3d3486cb4e2986b4f944143b89235760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c4e8dd386ecfdbecc3bc57d4f0dc04') in 0.002187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.201036 seconds.
+  path: Assets/Hand Painted Seamless Grass Texture/Demo
+  artifactKey: Guid(d6af6a21974250a4b92860b21d63ff00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Seamless Grass Texture/Demo using Guid(d6af6a21974250a4b92860b21d63ff00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280f766a02b2d55ee904976b4e8f9b59') in 0.001209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.690944 seconds.
+  path: Assets/Hand Painted Seamless Grass Texture/Demo/Scenes
+  artifactKey: Guid(dcb7237cb5e63dd4e9c295fec59765ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Seamless Grass Texture/Demo/Scenes using Guid(dcb7237cb5e63dd4e9c295fec59765ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043d00b45a3d1814f09d52cd6555c84a') in 0.001044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.660366 seconds.
+  path: Assets/Hand Painted Seamless Grass Texture/Demo/Scenes/Demo.unity
+  artifactKey: Guid(ad7824b2d371bf7429e6931343c78d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Seamless Grass Texture/Demo/Scenes/Demo.unity using Guid(ad7824b2d371bf7429e6931343c78d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41825a1fee06723b4481b9c8d1051d35') in 0.002122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.191773 seconds.
+  path: Assets/Hand Painted Seamless Grass Texture/Materials
+  artifactKey: Guid(d365b809516b91947ad091652874cf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Seamless Grass Texture/Materials using Guid(d365b809516b91947ad091652874cf4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645abbd6da85cc4091f0d9bd21fb88e8') in 0.001125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.053653 seconds.
+  path: Assets/Hand Painted Seamless Grass Texture/Materials/M_DryGrass.mat
+  artifactKey: Guid(352d93a0049dfd74b9d11c4ca1a60108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted Seamless Grass Texture/Materials/M_DryGrass.mat using Guid(352d93a0049dfd74b9d11c4ca1a60108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51954f64c170e724e4bdb9a42f418c3d') in 0.004464 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.439 seconds
+Refreshing native plugins compatible for Editor in 9.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.957 seconds
+Domain Reload Profiling: 7389ms
+	BeginReloadAssembly (290ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (1962ms)
+		LoadAssemblies (672ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1420ms)
+			TypeCache.Refresh (1389ms)
+				TypeCache.ScanAssembly (1362ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (4958ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2291ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (77ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (691ms)
+			ProcessInitializeOnLoadAttributes (1315ms)
+			ProcessInitializeOnLoadMethodAttributes (175ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (48ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 19.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.2 MB). Loaded Objects now: 6099.
+Memory consumption went from 199.5 MB to 198.3 MB.
+Total: 10.376000 ms (FindLiveObjects: 1.045600 ms CreateObjectMapping: 1.396800 ms MarkObjects: 7.522900 ms  DeleteObjects: 0.408200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/Plant.tga
-  artifactKey: Guid(4ed602243d46b7042bf79ef54616ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/Plant.tga using Guid(4ed602243d46b7042bf79ef54616ebf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be884229f08e5b1802d4cdd112badaf') in 0.006781 seconds
+  Time since last request: 58.654551 seconds.
+  path: Assets/Hand Painted textures
+  artifactKey: Guid(950a4aadd21c4f84f8ac9c5a9edc7e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand Painted textures using Guid(950a4aadd21c4f84f8ac9c5a9edc7e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940ce090a7f53131a7152f9043f5c2f4') in 0.002890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.898672 seconds.
+  path: Assets/Materials/Plane_grass.mat
+  artifactKey: Guid(d60cf05ffa9c02e4ab5acc8d119b40e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Plane_grass.mat using Guid(d60cf05ffa9c02e4ab5acc8d119b40e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6574025c469d0f19e4365c048a6e92a') in 0.003316 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
-Received Import Request.
-  Time since last request: 2.143296 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_roadcd2d2d038030d602.terrainlayer
-  artifactKey: Guid(4ddd81448660a664692ea37a97f4e590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_roadcd2d2d038030d602.terrainlayer using Guid(4ddd81448660a664692ea37a97f4e590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5ee4f489b34a725b5735b320ca33a8') in 0.002294 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.786 seconds
+Refreshing native plugins compatible for Editor in 8.61 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.243 seconds
+Domain Reload Profiling: 6020ms
+	BeginReloadAssembly (297ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (1303ms)
+		LoadAssemblies (774ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (659ms)
+			TypeCache.Refresh (636ms)
+				TypeCache.ScanAssembly (613ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (4244ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1448ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (77ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (345ms)
+			ProcessInitializeOnLoadAttributes (824ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 14.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.2 MB). Loaded Objects now: 6103.
+Memory consumption went from 199.6 MB to 198.4 MB.
+Total: 8.733100 ms (FindLiveObjects: 0.815600 ms CreateObjectMapping: 0.844800 ms MarkObjects: 6.644300 ms  DeleteObjects: 0.427000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.480762 seconds.
-  path: Assets/FantasyEnvironments/Environments/Prefabs/Flower2.prefab
-  artifactKey: Guid(9c47d3ce2208e9440ab03e7fe3e32bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Prefabs/Flower2.prefab using Guid(9c47d3ce2208e9440ab03e7fe3e32bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e387ec54dfd4e1e00dcab3cdb9a974f0') in 0.011258 seconds
+  Time since last request: 100.909001 seconds.
+  path: Assets/Hovl Studio
+  artifactKey: Guid(0b31d124a34f94241b3b5fbaa8745367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio using Guid(0b31d124a34f94241b3b5fbaa8745367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef79382b3d66c8e53e26648e650193b8') in 0.003484 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/FantasyEnvironments/Environments/Prefabs/Mushroom1.prefab
-  artifactKey: Guid(dea84a3662be77b4bad1db42d2b32262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Prefabs/Mushroom1.prefab using Guid(dea84a3662be77b4bad1db42d2b32262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3353cc8030be3325f24319f9c36991') in 0.005301 seconds
+  Time since last request: 2.075729 seconds.
+  path: Assets/Hovl Studio/Resources
+  artifactKey: Guid(f553b207639f79549bc12ac8a2681eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Resources using Guid(f553b207639f79549bc12ac8a2681eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e2ab07d0806c72fc78e3822c2386ff') in 0.000717 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 11.701177 seconds.
-  path: Assets/FantasyEnvironments/Environments/Materials/Rock1.mat
-  artifactKey: Guid(a533ed8eb4eba624da8b36b62d2da8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Materials/Rock1.mat using Guid(a533ed8eb4eba624da8b36b62d2da8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e87e0f1968cf187e2358f1dd80d6c87') in 0.003478 seconds
+  Time since last request: 0.593854 seconds.
+  path: Assets/Hovl Studio/Magic effects pack
+  artifactKey: Guid(ccaf0d0261bfcfe4f874cb02d8931eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack using Guid(ccaf0d0261bfcfe4f874cb02d8931eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3886c705e9608d0964b54c32bb2d0d4') in 0.004269 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 109.881518 seconds.
-  path: Assets/Imported/A bird's-eye vi 0.png
-  artifactKey: Guid(08837b2e1a67de04f870d74aa0c00508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/A bird's-eye vi 0.png using Guid(08837b2e1a67de04f870d74aa0c00508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37259cfc013cdd206959fe397524ddb2') in 0.036131 seconds
+  Time since last request: 1.113541 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials
+  artifactKey: Guid(a342b6520836d4e40bf3cae8acbccd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials using Guid(a342b6520836d4e40bf3cae8acbccd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '572f90ad0aabab68eede889315e81094') in 0.001040 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Imported/hard level.fbx
-  artifactKey: Guid(65e0507f5bc948d458adca8b5a85116e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/hard level.fbx using Guid(65e0507f5bc948d458adca8b5a85116e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e20f5322c81cc83c17585229750b111e') in 0.005896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Imported/Image.png
-  artifactKey: Guid(765dfc4a50a34084b8c946069504bba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Image.png using Guid(765dfc4a50a34084b8c946069504bba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7763835359ecc28290d7b95dfd53e57c') in 0.003388 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Imported/Restart.png
-  artifactKey: Guid(92f8569752d65634f8a9419068d91b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Restart.png using Guid(92f8569752d65634f8a9419068d91b16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16b5d33238950b5656af8175f871d10') in 0.003337 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Imported/spring.fbx
-  artifactKey: Guid(9abc8e793528ff344a8f42ae91af9835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/spring.fbx using Guid(9abc8e793528ff344a8f42ae91af9835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b548045e427d754dc06857ea5c84d82') in 0.006205 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Imported/Rock1.mat
-  artifactKey: Guid(db6b2780bcbc8a6448c214dcfe61ce4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Rock1.mat using Guid(db6b2780bcbc8a6448c214dcfe61ce4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e547e4459e79cfd0d63ad4f6678f96dc') in 0.001736 seconds
+  Time since last request: 0.066503 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Arrow1.mat
+  artifactKey: Guid(00b2a55319476cf40b84578eb2f8c2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Arrow1.mat using Guid(00b2a55319476cf40b84578eb2f8c2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be738f44fc3860fb9e6e8c6f33a80bb') in 0.005960 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Imported/new map 1 .fbx
-  artifactKey: Guid(f2e638d572d3db349aeee837f9325cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/new map 1 .fbx using Guid(f2e638d572d3db349aeee837f9325cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865548ba0cfbb3ac0380a80df9ac2497') in 0.004931 seconds
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Electro.mat
+  artifactKey: Guid(410fa9a27b8dd1f4989dd201babd7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Electro.mat using Guid(410fa9a27b8dd1f4989dd201babd7d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e06d3e74439f084217197a3b37bfa1f') in 0.002508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Heart.mat
+  artifactKey: Guid(e97a79db1dd66ad4d8f70932abe94b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Heart.mat using Guid(e97a79db1dd66ad4d8f70932abe94b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070997142acb4ea101456928c30198fa') in 0.004041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Flash.mat
+  artifactKey: Guid(db3488de871721d4f83250ff2af716b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Flash.mat using Guid(db3488de871721d4f83250ff2af716b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca0ceec570eafc50bc3849ac6389e57') in 0.002188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Flare.mat
+  artifactKey: Guid(818e127314f46c844a3b31d893dcfe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Flare.mat using Guid(818e127314f46c844a3b31d893dcfe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d498ec814bf5b5a3d06b4f1b4643943') in 0.002412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.343128 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Mask1.mat
+  artifactKey: Guid(96d60590d2a3f0143a9a84d4568d9de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Mask1.mat using Guid(96d60590d2a3f0143a9a84d4568d9de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b3f405d26dffdfbca018c1214d155d') in 0.002526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.705060 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Point.mat
+  artifactKey: Guid(e546d2d7171981b468cf29388d902e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Point.mat using Guid(e546d2d7171981b468cf29388d902e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de13e35a80da3b0ea128a0dd944cf929') in 0.002533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Snowflake.mat
+  artifactKey: Guid(110e8ef5ba5275f4c864c6b5190c7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Snowflake.mat using Guid(110e8ef5ba5275f4c864c6b5190c7891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894034490d76c9a7e3eef4b77f503ff1') in 0.004673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Stone.mat
+  artifactKey: Guid(5e01cbbef75a454468e5eb490ac64181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Stone.mat using Guid(5e01cbbef75a454468e5eb490ac64181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b2271695cfc84685a8e88d78eac292') in 0.004512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Smoke26.mat
+  artifactKey: Guid(616a777eb757ff14c82a79feeb35d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Smoke26.mat using Guid(616a777eb757ff14c82a79feeb35d9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264cdf9b567a33e2f0952a1685726781') in 0.012485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Materials/Star.mat
+  artifactKey: Guid(f7fb42690dbaf0d408f1f55ea89b7be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Materials/Star.mat using Guid(f7fb42690dbaf0d408f1f55ea89b7be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2b127f99fa64c5711e310b0855cfa4') in 0.006757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.090219 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Snow AOE.prefab
+  artifactKey: Guid(05ce920d629922a4eb4795ef7494ce5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Snow AOE.prefab using Guid(05ce920d629922a4eb4795ef7494ce5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d156a8d46be81b68ddc6cdf90fbbaef') in 0.010184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 6.620145 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Debuff.prefab
+  artifactKey: Guid(a58aa9a78f2b45b45bb0f3e2e1e3ad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Debuff.prefab using Guid(a58aa9a78f2b45b45bb0f3e2e1e3ad3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08874e9b7e7db5a02b56ccc3c30be6d4') in 0.004633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.005347 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Love aura.prefab
+  artifactKey: Guid(43d1d06cf70fcb2488255051aaae40a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Love aura.prefab using Guid(43d1d06cf70fcb2488255051aaae40a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c739de1a563cd2771b1d1f2fbe69fda4') in 0.004068 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Imported/resume.png
-  artifactKey: Guid(bf2e7e6771720e149875b2d126bb39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/resume.png using Guid(bf2e7e6771720e149875b2d126bb39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc7c3b088c948021568a0b0952bf92f') in 0.004275 seconds
+  Time since last request: 22.951062 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Healing circle.prefab
+  artifactKey: Guid(12a56ee4630040c4eb17ae9707ed4cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Healing circle.prefab using Guid(12a56ee4630040c4eb17ae9707ed4cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5465901101051127ae2f8c2a9ee92ee3') in 0.007961 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 23
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Imported/start.png
-  artifactKey: Guid(b947dfea9ed9adb4d95fdbac7a2f2d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/start.png using Guid(b947dfea9ed9adb4d95fdbac7a2f2d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55002cc6abe96c27f207ee03a99b6fcb') in 0.005668 seconds
+  Time since last request: 7.501647 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal green.prefab
+  artifactKey: Guid(13c990b8270c70b4c9f196019286028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal green.prefab using Guid(13c990b8270c70b4c9f196019286028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba64b9ef64d712853ebd87a3b7fa208') in 0.006421 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Imported/backofthmaze (2).fbx
-  artifactKey: Guid(44609d0368c87534197fc3e4813214d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/backofthmaze (2).fbx using Guid(44609d0368c87534197fc3e4813214d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49104c05b33b484879315ea58212e9a') in 0.236993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 476
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Imported/Setting.png
-  artifactKey: Guid(c4aedea93ae24504c81f1907c0fbe403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Setting.png using Guid(c4aedea93ae24504c81f1907c0fbe403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4faf5d981c343f22c8d2fb3cee1ff452') in 0.003313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Imported/Setting1.png
-  artifactKey: Guid(0ecf2dd699d89c44799034666c93a69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Setting1.png using Guid(0ecf2dd699d89c44799034666c93a69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51aafb0a7ec3c5b19fadf1e23ac2d8e8') in 0.003965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 17
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

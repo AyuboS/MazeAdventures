@@ -15,7 +15,7 @@ C:/Users/Odiljon/Desktop/Maze/MazeAdventures
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-49570
+57701
 Successfully changed project path to: C:/Users/Odiljon/Desktop/Maze/MazeAdventures
 C:/Users/Odiljon/Desktop/Maze/MazeAdventures
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/Users/Odiljon/Desktop/Maze/MazeAdventures
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23772] Host "[IP] 192.168.144.1 [Port] 0 [Flags] 2 [Guid] 1372143514 [EditorId] 1372143514 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0E9IIM8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11696] Host "[IP] 192.168.144.1 [Port] 0 [Flags] 2 [Guid] 139927655 [EditorId] 139927655 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0E9IIM8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23772] Host "[IP] 192.168.144.1 [Port] 0 [Flags] 2 [Guid] 1372143514 [EditorId] 1372143514 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0E9IIM8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11696] Host "[IP] 192.168.144.1 [Port] 0 [Flags] 2 [Guid] 139927655 [EditorId] 139927655 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-0E9IIM8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 44.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 25.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.3f1 (7cdc2969a641)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.060738 seconds.
-- Loaded All Assemblies, in  1.501 seconds
+Registered in 0.022330 seconds.
+- Loaded All Assemblies, in  0.974 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1814 ms
+Android Extension - Scanning For ADB Devices 803 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.962 seconds
-Domain Reload Profiling: 4458ms
-	BeginReloadAssembly (418ms)
+- Finished resetting the current domain, in  1.914 seconds
+Domain Reload Profiling: 2885ms
+	BeginReloadAssembly (393ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (222ms)
-	RebuildNativeTypeToScriptingClass (48ms)
-	initialDomainReloadingComplete (266ms)
-	LoadAllAssembliesAndSetupDomain (540ms)
-		LoadAssemblies (412ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (157ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (390ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (523ms)
-			TypeCache.Refresh (520ms)
-				TypeCache.ScanAssembly (472ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (2963ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (275ms)
+				TypeCache.ScanAssembly (256ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1915ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2683ms)
+		SetupLoadedEditorAssemblies (1732ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2212ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (1495ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (313ms)
-			ProcessInitializeOnLoadMethodAttributes (140ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (158ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.543 seconds
-Refreshing native plugins compatible for Editor in 13.12 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.416 seconds
+Refreshing native plugins compatible for Editor in 6.62 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -129,48 +129,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.969 seconds
-Domain Reload Profiling: 5501ms
-	BeginReloadAssembly (384ms)
+- Finished resetting the current domain, in  2.033 seconds
+Domain Reload Profiling: 3445ms
+	BeginReloadAssembly (210ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (106ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (124ms)
-	LoadAllAssembliesAndSetupDomain (1884ms)
-		LoadAssemblies (937ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (1055ms)
+		LoadAssemblies (546ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1141ms)
-			TypeCache.Refresh (1034ms)
-				TypeCache.ScanAssembly (990ms)
-			ScanForSourceGeneratedMonoScriptInfo (74ms)
-			ResolveRequiredComponents (34ms)
-	FinalizeReload (2970ms)
+		AnalyzeDomain (604ms)
+			TypeCache.Refresh (545ms)
+				TypeCache.ScanAssembly (522ms)
+			ScanForSourceGeneratedMonoScriptInfo (43ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2034ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1675ms)
+		SetupLoadedEditorAssemblies (1525ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (73ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (162ms)
+			SetLoadedEditorAssemblies (27ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (367ms)
-			ProcessInitializeOnLoadAttributes (1013ms)
-			ProcessInitializeOnLoadMethodAttributes (186ms)
-			AfterProcessingInitializeOnLoad (26ms)
+			BeforeProcessingInitializeOnLoad (640ms)
+			ProcessInitializeOnLoadAttributes (584ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 20.36 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 7.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5610 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (1.1 MB). Loaded Objects now: 6092.
-Memory consumption went from 233.4 MB to 232.3 MB.
-Total: 14.003500 ms (FindLiveObjects: 1.936900 ms CreateObjectMapping: 3.000500 ms MarkObjects: 8.374600 ms  DeleteObjects: 0.689700 ms)
+Unloading 5611 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (1.2 MB). Loaded Objects now: 6094.
+Memory consumption went from 233.5 MB to 232.2 MB.
+Total: 7.132400 ms (FindLiveObjects: 0.684100 ms CreateObjectMapping: 0.641500 ms MarkObjects: 5.311800 ms  DeleteObjects: 0.493600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -185,406 +185,771 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 426708.314358 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/ground_grass.tga
-  artifactKey: Guid(aab4ce53d0c651344a601f5344c53a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/ground_grass.tga using Guid(aab4ce53d0c651344a601f5344c53a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f855478783b125504ae3b89cbeb55c23') in 0.031605 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/Rock1.tga
-  artifactKey: Guid(581c268c4d271934b96596d532a0a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/Rock1.tga using Guid(581c268c4d271934b96596d532a0a604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358e36a76f16115402b52697b39d568b') in 0.009095 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.051140 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade
-  artifactKey: Guid(4acbfd84bbe00ff41b8ded8aaafb04aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade using Guid(4acbfd84bbe00ff41b8ded8aaafb04aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86350e6b38443c9dad8391decfa5ec14') in 0.001675 seconds
+  Time since last request: 447633.383889 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Models
+  artifactKey: Guid(ad4081446914afa4e94efff5e5b27056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Models using Guid(ad4081446914afa4e94efff5e5b27056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e650911132d72454cbad75eb47f8315b') in 0.004933 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.065571 seconds.
-  path: Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_grasscd2d2d038030d602.terrainlayer
-  artifactKey: Guid(3ea7607a4748109479f02a95f1992998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Textures/_TerrainAutoUpgrade/layer_ground_grasscd2d2d038030d602.terrainlayer using Guid(3ea7607a4748109479f02a95f1992998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7c4624e2fa8e264897a048d9c1bcda') in 0.002215 seconds
+  Time since last request: 0.074636 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Models/Cylinder.fbx
+  artifactKey: Guid(4a8c064de5d1b4045a9e9d4ebd5d6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Models/Cylinder.fbx using Guid(4a8c064de5d1b4045a9e9d4ebd5d6575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1da22eb6e1ffff54dd3ebdc39d96906') in 0.008757 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 8.407055 seconds.
-  path: Assets/FantasyEnvironments/Environments/Prefabs
-  artifactKey: Guid(ef07e65e41d5b9643a6fed8822f68b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Prefabs using Guid(ef07e65e41d5b9643a6fed8822f68b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69055909d635a1d64712de53a76c280') in 0.000883 seconds
+  Time since last request: 2.130903 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs
+  artifactKey: Guid(30f354b2984b43147b902803fe8a4ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs using Guid(30f354b2984b43147b902803fe8a4ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52151b357ec7c43f74f772a3aaf80573') in 0.001163 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.055804 seconds.
-  path: Assets/FantasyEnvironments/Environments/Prefabs/Flower1.prefab
-  artifactKey: Guid(092dfbd1d1f007a448a41cded731f699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Prefabs/Flower1.prefab using Guid(092dfbd1d1f007a448a41cded731f699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5bb2ac264a0d62706bcee88bf65522') in 0.008738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/FantasyEnvironments/Environments/Prefabs/Grass1.prefab
-  artifactKey: Guid(a022b6294d5967e499a6638d8af5a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Prefabs/Grass1.prefab using Guid(a022b6294d5967e499a6638d8af5a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8fa15a963c0971724a8617819ec1fd') in 0.004070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/FantasyEnvironments/Environments/Prefabs/Rock1.prefab
-  artifactKey: Guid(c07f24e35f07ce74ba43afa35d48adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Prefabs/Rock1.prefab using Guid(c07f24e35f07ce74ba43afa35d48adf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6f4604034cbb933db18901f0110fa9') in 0.004553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 11.672234 seconds.
-  path: Assets/FantasyEnvironments/Environments/Materials/Plant.mat
-  artifactKey: Guid(7805f02cde847fa488989988fbc3d7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FantasyEnvironments/Environments/Materials/Plant.mat using Guid(7805f02cde847fa488989988fbc3d7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd53b8ee235678495e4651a9958273c') in 0.003487 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 109.778017 seconds.
-  path: Assets/Imported
-  artifactKey: Guid(919de3296ed712948b923b0d4b70b38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported using Guid(919de3296ed712948b923b0d4b70b38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1216bfc9f6acc3f778c28710b2e89ee') in 0.000939 seconds
+  Time since last request: 0.904649 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects
+  artifactKey: Guid(f0e78b2e61a2b2f40bf0a0be9e842772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects using Guid(f0e78b2e61a2b2f40bf0a0be9e842772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d923cb62817aa0c534d82bebfbc4d7') in 0.001146 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.085350 seconds.
-  path: Assets/Imported/A (((bird's-eye 1.png
-  artifactKey: Guid(3a03dd010022dbe4999efe47f5e01c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/A (((bird's-eye 1.png using Guid(3a03dd010022dbe4999efe47f5e01c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9129d08f79a5de0d4791cdcdaba1641d') in 0.044254 seconds
+  Time since last request: 0.685245 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Meteors AOE.prefab
+  artifactKey: Guid(3355f6bfa6db8b24281b827de929694c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Meteors AOE.prefab using Guid(3355f6bfa6db8b24281b827de929694c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bfa0b18ca1d84fc6191be2d5fdc543') in 0.011222 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 34
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Imported/maze.fbx
-  artifactKey: Guid(94e9486a8619ea146ba6172f770299da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/maze.fbx using Guid(94e9486a8619ea146ba6172f770299da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de36a1475c47d9acde8be8841f08ef2e') in 0.003881 seconds
+  Time since last request: 6.444968 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras
+  artifactKey: Guid(f28b9550250755a49a2bc61e35278603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras using Guid(f28b9550250755a49a2bc61e35278603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea510f9d1b7811e2dd62666c4d0b98c1') in 0.000887 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Imported/new map 2 .fbx
-  artifactKey: Guid(e2ef825f80dc8ce4885b00dad65ab469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/new map 2 .fbx using Guid(e2ef825f80dc8ce4885b00dad65ab469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dac7d2b2f6c0abf275254324275a350') in 0.005778 seconds
+  Time since last request: 0.154308 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Buff.prefab
+  artifactKey: Guid(97c43495f80a3244fad1301dfafbe252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Buff.prefab using Guid(97c43495f80a3244fad1301dfafbe252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ababc2fce679125cf4477ff83cde527b') in 0.004187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.006570 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Lightning aura.prefab
+  artifactKey: Guid(4d9a3b35b3bc07649b697df7fb497b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Lightning aura.prefab using Guid(4d9a3b35b3bc07649b697df7fb497b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14595bd58312f53a533f4fa2acbed8d6') in 0.003177 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Imported/obstecles.fbx
-  artifactKey: Guid(e9eac1fd9e070e146af3e0fedfcef4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/obstecles.fbx using Guid(e9eac1fd9e070e146af3e0fedfcef4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7be6aff423cfadfd10c1d3e6ae06c5') in 0.027074 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 280
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Imported/Fireflies.prefab
-  artifactKey: Guid(44a2e01f5823f9f428e246875f4d29ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Fireflies.prefab using Guid(44a2e01f5823f9f428e246875f4d29ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ba28981e1e96833289d812cce952fc') in 0.008819 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Imported/new map 4 .fbx
-  artifactKey: Guid(925a5913ec987e248bc4e997ab2acfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/new map 4 .fbx using Guid(925a5913ec987e248bc4e997ab2acfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528ba73e47972ebc8eec73e73855a53e') in 0.004404 seconds
+  Time since last request: 0.001767 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Star aura.prefab
+  artifactKey: Guid(354b6251e950209409c75ab984acf000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Star aura.prefab using Guid(354b6251e950209409c75ab984acf000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be48a9a4ca463c0deb3d8208e89ff806') in 0.003071 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Imported/grass.fbx
-  artifactKey: Guid(6c1589154f1fa9541bc0375f660c1f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/grass.fbx using Guid(6c1589154f1fa9541bc0375f660c1f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144889f394880c830245717de5d132de') in 0.004754 seconds
+  Time since last request: 11.155715 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions
+  artifactKey: Guid(68268cae718ee3a49928d3510623883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions using Guid(68268cae718ee3a49928d3510623883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de8ef560886ee2196569a6802a7a2e7') in 0.001059 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Imported/obsteclessorted.fbx
-  artifactKey: Guid(7ac103e477ff9c545b8f8f9b750e9a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/obsteclessorted.fbx using Guid(7ac103e477ff9c545b8f8f9b750e9a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7b7972aba7795fa5c4efb8bdb2e72f') in 0.051550 seconds
+  Time since last request: 10.328105 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects
+  artifactKey: Guid(fafa6ed23af356445b9387cba7732fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects using Guid(fafa6ed23af356445b9387cba7732fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0cdd74fe1683bca6651110831d7831') in 0.000912 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 431
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Imported/testnum1.fbx
-  artifactKey: Guid(6aebac35eebff514bb786c114428620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/testnum1.fbx using Guid(6aebac35eebff514bb786c114428620a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee171674509fc3997862126d2db7ebf') in 0.004939 seconds
+  Time since last request: 0.491543 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals
+  artifactKey: Guid(562e4f1f238cfc74e85b37873fe6bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals using Guid(562e4f1f238cfc74e85b37873fe6bfe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4765cb6bb2250630eac12778a20a2461') in 0.000796 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Imported/DiloWorld-mLJLv.ttf
-  artifactKey: Guid(af1902b569423af42b2bc4c4abe9a4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/DiloWorld-mLJLv.ttf using Guid(af1902b569423af42b2bc4c4abe9a4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70b264bdb44154721ed4ae51d9b80b6') in 0.011816 seconds
+  Time since last request: 0.705425 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles
+  artifactKey: Guid(58c695d9e25e06a47919eb09f93c4b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles using Guid(58c695d9e25e06a47919eb09f93c4b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186e9b6dbd207e155420a9f97c8537b0') in 0.001168 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Imported/Restart 2.png
-  artifactKey: Guid(01ea4776691e023438ff2719b86f3a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Restart 2.png using Guid(01ea4776691e023438ff2719b86f3a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7f7b2e8255604efa3322da15d4762b') in 0.004241 seconds
+  Time since last request: 0.160856 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Freeze circle.prefab
+  artifactKey: Guid(0e5709a7ddb77924090c112cf73bb98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Freeze circle.prefab using Guid(0e5709a7ddb77924090c112cf73bb98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7a6313cb2a66196142a03762773485') in 0.005021 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.001252 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Magic circle 2.prefab
+  artifactKey: Guid(48c5715f9603c3842a353516a8baefbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Magic circle 2.prefab using Guid(48c5715f9603c3842a353516a8baefbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a782c986af7606e64b3b87f53c723e5a') in 0.007072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 7.474869 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal blue.prefab
+  artifactKey: Guid(45e0f06c750176947862c10346226439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal blue.prefab using Guid(45e0f06c750176947862c10346226439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93fbc6d6926178864e10f90691926c9') in 0.005512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal red.prefab
+  artifactKey: Guid(52c7d057cba585641bb68312c10d7791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal red.prefab using Guid(52c7d057cba585641bb68312c10d7791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50ebabeed7baa9f6b76377820f59c80') in 0.005167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 86.027890 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures
+  artifactKey: Guid(48fbaf4e0d478de498dc961be7083466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures using Guid(48fbaf4e0d478de498dc961be7083466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfab208f08be6695a1e5bfd760ced95') in 0.001016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059008 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Arrow1.png
+  artifactKey: Guid(cd95337217b49a143a851ed79a626632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Arrow1.png using Guid(cd95337217b49a143a851ed79a626632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f62557ff01f25477049fd3257067b4') in 0.028269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Star.png
+  artifactKey: Guid(5cc658114b5abae49bce56d6c4ae3105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Star.png using Guid(5cc658114b5abae49bce56d6c4ae3105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7094dfe9c582f02b56b55a0c08a3df0') in 0.110920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Imported/Restart 1.png
-  artifactKey: Guid(dbc04807a406ffd43958bba5271866a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Restart 1.png using Guid(dbc04807a406ffd43958bba5271866a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a6556e96c17bd4229dbeb47e88f6cf5') in 0.005384 seconds
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Snowflake.png
+  artifactKey: Guid(0e1a6a9f47773b7478bea4aee1a1b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Snowflake.png using Guid(0e1a6a9f47773b7478bea4aee1a1b64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e1c7345ce0c36af2d33206ec17a7a0') in 0.006916 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Imported/new map 3 .fbx
-  artifactKey: Guid(6a7c89bf62f7d5f41816e0fbcc7456f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/new map 3 .fbx using Guid(6a7c89bf62f7d5f41816e0fbcc7456f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307e99578f2bf29cc9cf063905448f49') in 0.006902 seconds
+  Time since last request: 0.000041 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Splat.png
+  artifactKey: Guid(00282aad0def9f942a895c41d7389b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Splat.png using Guid(00282aad0def9f942a895c41d7389b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63913d88b8dca0c2dc52b6080ff0b781') in 0.004409 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Imported/Rectangle 19.png
-  artifactKey: Guid(b868b4e21b7bef4428a45dbfe2b9e45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Rectangle 19.png using Guid(b868b4e21b7bef4428a45dbfe2b9e45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d73546a892024e0f3f2e381165e899') in 0.003861 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Point1n.png
+  artifactKey: Guid(5050511111526384094dd94bcde2676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Point1n.png using Guid(5050511111526384094dd94bcde2676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68edc0bf526e43feaa20cb8c6470862') in 0.003549 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Imported/spring 1.fbx
-  artifactKey: Guid(c48a0eccfb32d7648a7cfa6be8ef0581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/spring 1.fbx using Guid(c48a0eccfb32d7648a7cfa6be8ef0581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba23e4a8a625b318b953a87298fd1ac') in 0.005897 seconds
+  Time since last request: 0.000040 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Flare.png
+  artifactKey: Guid(96a713cc4a0aa464caab5d8fad5911e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Flare.png using Guid(96a713cc4a0aa464caab5d8fad5911e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f725c126b2724707eac8ba842b9ca90d') in 0.011248 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Imported/exit.png
-  artifactKey: Guid(52b9d1d9ceaa47e458ccf042c85aba91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/exit.png using Guid(52b9d1d9ceaa47e458ccf042c85aba91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1c5ba2159296fa909ccab4406207c8') in 0.004114 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Gradient.png
+  artifactKey: Guid(878972c3151f97940b2c53535a0d1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Gradient.png using Guid(878972c3151f97940b2c53535a0d1ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775cd1cf25a5af829fc2e4cfd5ab32d2') in 0.004752 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 8.028936 seconds.
-  path: Assets/Flat Textures Pack
-  artifactKey: Guid(167b056890c30b54ca4ba419b6d66af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flat Textures Pack using Guid(167b056890c30b54ca4ba419b6d66af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d3a2031b1e9ecc42b97ad58cccc8c2') in 0.003645 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_Height.png
+  artifactKey: Guid(db368c1c85b12fe48aba6cc9bcd41f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab_Height.png using Guid(db368c1c85b12fe48aba6cc9bcd41f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387682717e8ba114d2b269cc24c43d4f') in 0.202857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Slash.png
+  artifactKey: Guid(52eef6aa133a854489e620987374b364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Slash.png using Guid(52eef6aa133a854489e620987374b364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d65517d9e6b5e4fbec4dd5521b564a') in 0.008929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/MagicCircle2.png
+  artifactKey: Guid(5a6bd793e147ac64e98bf339553fd728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/MagicCircle2.png using Guid(5a6bd793e147ac64e98bf339553fd728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb03241631e96ad0be3d78d64b7cec6') in 0.050937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Hovl Studio/Magic effects pack/Textures/Point1.png
+  artifactKey: Guid(640e93060c8b460449dc5d4f16193387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Magic effects pack/Textures/Point1.png using Guid(640e93060c8b460449dc5d4f16193387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf8ba6bda15c8f67b2f26c1678d3597') in 0.033017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.469 seconds
+Refreshing native plugins compatible for Editor in 10.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.303 seconds
+Domain Reload Profiling: 7763ms
+	BeginReloadAssembly (948ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (59ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (277ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (1332ms)
+		LoadAssemblies (960ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (763ms)
+			TypeCache.Refresh (736ms)
+				TypeCache.ScanAssembly (711ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (5304ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1799ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (97ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (385ms)
+			ProcessInitializeOnLoadAttributes (1069ms)
+			ProcessInitializeOnLoadMethodAttributes (207ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (57ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 23.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.2 MB). Loaded Objects now: 6100.
+Memory consumption went from 199.6 MB to 198.4 MB.
+Total: 14.101700 ms (FindLiveObjects: 2.064300 ms CreateObjectMapping: 2.392600 ms MarkObjects: 9.065000 ms  DeleteObjects: 0.577800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 57.289978 seconds.
+  path: Assets/Joystick Pack
+  artifactKey: Guid(e8c8bce9e5f593648be5f2c8dc044c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Joystick Pack using Guid(e8c8bce9e5f593648be5f2c8dc044c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20a0c1082048ce0c8b225bd83d28d4a') in 0.004717 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 57.768050 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Birch_Tree_06.prefab
-  artifactKey: Guid(a2bd798ea40c7e341aa61ad124d95342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Birch_Tree_06.prefab using Guid(a2bd798ea40c7e341aa61ad124d95342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66572466da75db348e28a47d382a29d5') in 0.009323 seconds
+  Time since last request: 1.264877 seconds.
+  path: Assets/Pictures
+  artifactKey: Guid(3911147e96313584586fb6cfd9806264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures using Guid(3911147e96313584586fb6cfd9806264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6228216298f2a45b46006b61477556') in 0.001047 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Sunflower_04.prefab
-  artifactKey: Guid(18bb023d75a113f4cb8d1452371f5c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Sunflower_04.prefab using Guid(18bb023d75a113f4cb8d1452371f5c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a70df0f5da73fe692e796779dac6fd') in 0.005461 seconds
+  Time since last request: 0.895940 seconds.
+  path: Assets/Pictures/L_Maze.png
+  artifactKey: Guid(44f3d49f890b96544a6d9a4863c5b132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pictures/L_Maze.png using Guid(44f3d49f890b96544a6d9a4863c5b132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ce9b7510c36daefd520369961c9cfa') in 0.006914 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Purple_05.prefab
-  artifactKey: Guid(d354c41a99993964baca0254487708d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Mushroom_Fantasy_Purple_05.prefab using Guid(d354c41a99993964baca0254487708d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f5997381829c4d7e492f7171b99594') in 0.003905 seconds
+  Time since last request: 10.002543 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1590fa22b40341c212b8176897fa41ce') in 0.001063 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Grass_15.prefab
-  artifactKey: Guid(b8217b9c1183a5144b666d1dd63980c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Grass_15.prefab using Guid(b8217b9c1183a5144b666d1dd63980c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0cf8ab344083bc9d18e9b6a7b854f9') in 0.005449 seconds
+  Time since last request: 0.526482 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539788fea73926d38e17274c55d5d4cc') in 0.001054 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Moss_Grown_09.prefab
-  artifactKey: Guid(24457fdf8e66c3c49b7599931e0fdcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Moss_Grown_09.prefab using Guid(24457fdf8e66c3c49b7599931e0fdcb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee29e93a207365ae622256450430c3a8') in 0.003601 seconds
+  Time since last request: 1.041604 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cdd8eefe9ebe14c8a8ffb28412325b') in 0.000877 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Pile_Forest_Moss_05.prefab
-  artifactKey: Guid(9a91bc2b0a89c4748a0c5b940bd461a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Pile_Forest_Moss_05.prefab using Guid(9a91bc2b0a89c4748a0c5b940bd461a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe04108f2ebccaf706b3726810dd0a6c') in 0.005972 seconds
+  Time since last request: 0.883621 seconds.
+  path: Assets/Visual Effects
+  artifactKey: Guid(d036a1669d1744547bce7e70b546e5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Effects using Guid(d036a1669d1744547bce7e70b546e5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6efd1d6d0a5f202132c3deacd1117553') in 0.002187 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Daffodil_03.prefab
-  artifactKey: Guid(13dd10d6717971d4ea9125d158299b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Daffodil_03.prefab using Guid(13dd10d6717971d4ea9125d158299b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2646473939ea2f1224740fd411c2a8') in 0.004715 seconds
+  Time since last request: 0.708519 seconds.
+  path: Assets/Yarvisoft
+  artifactKey: Guid(04b981fe2eef84d4cbcaa024a0730c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yarvisoft using Guid(04b981fe2eef84d4cbcaa024a0730c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519c0e74fc9c301095d9bce82a12144a') in 0.001027 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Lake_Ground_04.prefab
-  artifactKey: Guid(66072c42e7f38924f90a2ea3e36cc606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Lake_Ground_04.prefab using Guid(66072c42e7f38924f90a2ea3e36cc606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fff56deed833fe7d1261f8f2828be97') in 0.006160 seconds
+  Time since last request: 6.189141 seconds.
+  path: Assets/Visual Effects/Portal.vfx
+  artifactKey: Guid(989b349ee7e1fdc4da36e36acefeb3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Effects/Portal.vfx using Guid(989b349ee7e1fdc4da36e36acefeb3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8d301b4a597e06be1009c776e66dfa') in 0.009671 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Forest_Mountain_Moss_02.prefab
-  artifactKey: Guid(034023ff02a37fc47aab6bc6c49bf15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Forest_Mountain_Moss_02.prefab using Guid(034023ff02a37fc47aab6bc6c49bf15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd1f2b03a3eea045accf553e087a1c1') in 0.004879 seconds
+  Time since last request: 9.928410 seconds.
+  path: Assets/Visual Effects/Portal.vfx
+  artifactKey: Guid(989b349ee7e1fdc4da36e36acefeb3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Effects/Portal.vfx using Guid(989b349ee7e1fdc4da36e36acefeb3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def58bad981fb9b5dabbbc198d1f32bc') in 0.005635 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Pile_Forest_Moss_10.prefab
-  artifactKey: Guid(c8134dd87be4906419f13922ddc5bf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Rock_Pile_Forest_Moss_10.prefab using Guid(c8134dd87be4906419f13922ddc5bf4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bcda8ef536eb7985109c09b6d98567') in 0.004911 seconds
+  Time since last request: 210.568230 seconds.
+  path: Assets/Yarvisoft/Free Textures
+  artifactKey: Guid(dd994adcce4f731429f03d35d05e5b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yarvisoft/Free Textures using Guid(dd994adcce4f731429f03d35d05e5b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93af3a1d363ed26aee225ee863db8524') in 0.001274 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.023951 seconds.
+  path: Assets/Yarvisoft/Free Textures/Demo Scene
+  artifactKey: Guid(4e87b869f4952174ebc8072d027ef430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yarvisoft/Free Textures/Demo Scene using Guid(4e87b869f4952174ebc8072d027ef430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f5f8a5ebd4ad2597c9dd6715d1a19f') in 0.000889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.565972 seconds.
+  path: Assets/Yarvisoft/Free Textures/Demo Scene/freeTextures_demoScene.unity
+  artifactKey: Guid(6b0e4f04f99df354faeaf630f5d9a718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yarvisoft/Free Textures/Demo Scene/freeTextures_demoScene.unity using Guid(6b0e4f04f99df354faeaf630f5d9a718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f7afa4e31e1b0292aab919ff7a3a79') in 0.001358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 50.939060 seconds.
+  path: Assets/Imported/skybox/front.png
+  artifactKey: Guid(acb1480706fc2134ebeccae89007d36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/skybox/front.png using Guid(acb1480706fc2134ebeccae89007d36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591ca51b4613ed27aa05bca502a73d2c') in 0.043589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Imported/skybox/right.png
+  artifactKey: Guid(60913218c2f43e244a279672ae784419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/skybox/right.png using Guid(60913218c2f43e244a279672ae784419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf2866999895394510066404177a1fd') in 0.074940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
   Time since last request: 0.000052 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Tree_10.prefab
-  artifactKey: Guid(273b8f4150121d249ac7e2fd11da7005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Tree_10.prefab using Guid(273b8f4150121d249ac7e2fd11da7005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ca0044de19f1c33bb910c3fc86e5c7') in 0.003586 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Grass_11.prefab
-  artifactKey: Guid(ef62619642b0df743b22dd5120c6ac4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Prefabs/PP_Grass_11.prefab using Guid(ef62619642b0df743b22dd5120c6ac4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab4d8fef91f271aa82e1877c7fa3ad6') in 0.003125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 4.483066 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Standard_Material.mat
-  artifactKey: Guid(0799a1e95665ef14f8fe2cbcd4ba3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Standard_Material.mat using Guid(0799a1e95665ef14f8fe2cbcd4ba3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8aec6e28d26f89d72b8c6cb4d798d4') in 0.004581 seconds
+  path: Assets/Imported/skybox/left.png
+  artifactKey: Guid(f2f1b15bb0b1fad4ebc1bd45c79ca99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/skybox/left.png using Guid(f2f1b15bb0b1fad4ebc1bd45c79ca99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc2ce47b964735763716fd75a8fe9a2') in 0.028493 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 18.655329 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Standard_Material.mat
-  artifactKey: Guid(0799a1e95665ef14f8fe2cbcd4ba3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Standard_Material.mat using Guid(0799a1e95665ef14f8fe2cbcd4ba3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd947fab6202bc25a041d3b7408a192') in 0.003736 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/Imported/skybox/bottom.png
+  artifactKey: Guid(6cb4aa764c477a84e969723116351cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/skybox/bottom.png using Guid(6cb4aa764c477a84e969723116351cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c2f9720dadee45d5dba3331cf86ee1') in 0.043897 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
-Received Import Request.
-  Time since last request: 4.473217 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Standard_Material.mat
-  artifactKey: Guid(0799a1e95665ef14f8fe2cbcd4ba3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Materials/PP_Standard_Material.mat using Guid(0799a1e95665ef14f8fe2cbcd4ba3dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5cb8283e3ba2d72813a767f437b4c6') in 0.003351 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.846 seconds
+Refreshing native plugins compatible for Editor in 9.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.950 seconds
+Domain Reload Profiling: 6787ms
+	BeginReloadAssembly (358ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (1292ms)
+		LoadAssemblies (730ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (727ms)
+			TypeCache.Refresh (703ms)
+				TypeCache.ScanAssembly (678ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (4952ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1691ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (78ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (373ms)
+			ProcessInitializeOnLoadAttributes (1006ms)
+			ProcessInitializeOnLoadMethodAttributes (194ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (56ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 11.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.2 MB). Loaded Objects now: 6104.
+Memory consumption went from 199.7 MB to 198.5 MB.
+Total: 9.646100 ms (FindLiveObjects: 0.755800 ms CreateObjectMapping: 0.856000 ms MarkObjects: 7.595500 ms  DeleteObjects: 0.437500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 22.077276 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Birch_Tree_06.fbx
-  artifactKey: Guid(ddd36401006c8654eae1d9a6bcd6380d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Birch_Tree_06.fbx using Guid(ddd36401006c8654eae1d9a6bcd6380d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9bf7f57c748c71aaf0a901b86dedc2') in 0.004741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.337 seconds
+Refreshing native plugins compatible for Editor in 10.39 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.500 seconds
+Domain Reload Profiling: 6796ms
+	BeginReloadAssembly (291ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (63ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (179ms)
+	LoadAllAssembliesAndSetupDomain (1734ms)
+		LoadAssemblies (1234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (628ms)
+			TypeCache.Refresh (603ms)
+				TypeCache.ScanAssembly (580ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (4502ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1542ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (73ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (335ms)
+			ProcessInitializeOnLoadAttributes (921ms)
+			ProcessInitializeOnLoadMethodAttributes (176ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (48ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 9.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.2 MB). Loaded Objects now: 6108.
+Memory consumption went from 199.7 MB to 198.5 MB.
+Total: 5.915700 ms (FindLiveObjects: 0.701100 ms CreateObjectMapping: 0.657300 ms MarkObjects: 4.111300 ms  DeleteObjects: 0.444500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Mushroom_Fantasy_Orange_10.fbx
-  artifactKey: Guid(769bcb364254fc84f86c3bde2b625a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Mushroom_Fantasy_Orange_10.fbx using Guid(769bcb364254fc84f86c3bde2b625a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0f49f64b27935bfe64d481f7a9a1d1') in 0.002916 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.400 seconds
+Refreshing native plugins compatible for Editor in 9.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.514 seconds
+Domain Reload Profiling: 6906ms
+	BeginReloadAssembly (296ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1930ms)
+		LoadAssemblies (1403ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (656ms)
+			TypeCache.Refresh (631ms)
+				TypeCache.ScanAssembly (605ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (4515ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2276ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (81ms)
+			SetLoadedEditorAssemblies (44ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1044ms)
+			ProcessInitializeOnLoadAttributes (908ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 12.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.2 MB). Loaded Objects now: 6112.
+Memory consumption went from 199.7 MB to 198.5 MB.
+Total: 10.249300 ms (FindLiveObjects: 1.007000 ms CreateObjectMapping: 1.933100 ms MarkObjects: 6.897200 ms  DeleteObjects: 0.410200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Forest_Mountain_Moss_01.fbx
-  artifactKey: Guid(d818648c1b009ab48a03dbcc4ae09583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Forest_Mountain_Moss_01.fbx using Guid(d818648c1b009ab48a03dbcc4ae09583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740657fe38f3e0fa4a83322e29f91684') in 0.003670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.641 seconds
+Refreshing native plugins compatible for Editor in 9.59 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.398 seconds
+Domain Reload Profiling: 6033ms
+	BeginReloadAssembly (309ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (1159ms)
+		LoadAssemblies (646ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (657ms)
+			TypeCache.Refresh (635ms)
+				TypeCache.ScanAssembly (614ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (4400ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1523ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (77ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (327ms)
+			ProcessInitializeOnLoadAttributes (915ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 14.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.2 MB). Loaded Objects now: 6116.
+Memory consumption went from 199.7 MB to 198.5 MB.
+Total: 7.506200 ms (FindLiveObjects: 0.737800 ms CreateObjectMapping: 0.738200 ms MarkObjects: 5.591800 ms  DeleteObjects: 0.436600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Sunflower_04.fbx
-  artifactKey: Guid(5374e258aa8b0a54b9ad017e47f849ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Sunflower_04.fbx using Guid(5374e258aa8b0a54b9ad017e47f849ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efa3913d20eb3fbc3a18494dea1f737') in 0.003359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Mushroom_Fantasy_Purple_08.fbx
-  artifactKey: Guid(6aac2ae04e9a93646918391471e1a564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Mushroom_Fantasy_Purple_08.fbx using Guid(6aac2ae04e9a93646918391471e1a564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322d2a3f377b2c649ddc8ea88f6da1ba') in 0.002575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Meadow_07.fbx
-  artifactKey: Guid(5d113e0df0acd474cb544e13e9327875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Meadow_07.fbx using Guid(5d113e0df0acd474cb544e13e9327875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9090469c42aac1423c9b267a2d3137') in 0.003198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Rock_Moss_Grown_09.fbx
-  artifactKey: Guid(3184c8a016da6e34abff1686da99650b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Rock_Moss_Grown_09.fbx using Guid(3184c8a016da6e34abff1686da99650b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12dc858b3093605461842307ba7fef4') in 0.003008 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Tree_02.fbx
-  artifactKey: Guid(c6b568bf9e55de141add501b8cd2a0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pure Poly/Free Low Poly Nature Pack/Meshes/PP_Tree_02.fbx using Guid(c6b568bf9e55de141add501b8cd2a0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8214af2ef5bca471651623e86fe279') in 0.004009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Odiljon\Desktop\Maze\MazeAdventures\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.637 seconds
+Refreshing native plugins compatible for Editor in 8.62 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.519 seconds
+Domain Reload Profiling: 6146ms
+	BeginReloadAssembly (308ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (1153ms)
+		LoadAssemblies (633ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (661ms)
+			TypeCache.Refresh (643ms)
+				TypeCache.ScanAssembly (618ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (4520ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1538ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (77ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (353ms)
+			ProcessInitializeOnLoadAttributes (901ms)
+			ProcessInitializeOnLoadMethodAttributes (172ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 15.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5426 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (1.2 MB). Loaded Objects now: 6120.
+Memory consumption went from 199.7 MB to 198.5 MB.
+Total: 10.982200 ms (FindLiveObjects: 0.880000 ms CreateObjectMapping: 1.225100 ms MarkObjects: 7.810800 ms  DeleteObjects: 1.061400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
