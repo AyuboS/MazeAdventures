@@ -43,6 +43,11 @@ public class buttonsManager : MonoBehaviour
         B_restart.transform.localScale = Vector3.one * 0.6f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    public void Back2MainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
     public void Exit()
     {
         Application.Quit();
@@ -50,7 +55,7 @@ public class buttonsManager : MonoBehaviour
 
     IEnumerator FadeOut()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
 
         PausePanel.SetActive(false);
 

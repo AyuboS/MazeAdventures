@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     [SerializeField] GameObject[] buttons;
-    [SerializeField] GameObject S_L;
     [SerializeField] GameObject L;
     void Update()
     {
@@ -28,7 +27,6 @@ public class MainMenu : MonoBehaviour
             buttons[1].SetActive(false);
         }
 
-        S_L.SetActive(true);
         L.SetActive(true);
    }
    public void QuitGame()
