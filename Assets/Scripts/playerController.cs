@@ -10,18 +10,18 @@ using UnityEngine.EventSystems;
 public class playerController : MonoBehaviour
 {
 
-    private const float impulseVelocity = 25f;
+    private const float impulseVelocity = 7f;
 
     public float speed = 2f;
-
+    public float rotationSpeed = 400f;
     //public float speed;
     public Camera cam;
     //public Collider planeCollider;
-    RaycastHit hit;
-    Ray ray;
+    //RaycastHit hit;
+    //Ray ray;
     public Rigidbody rb;
     Animator animator;
-
+    bool isMovable;
     protected Joystick Joystick;
     //protected JoystickManager JoyManager;
 
@@ -38,7 +38,7 @@ public class playerController : MonoBehaviour
         animator = GetComponent<Animator>();
 
         Joystick = FindObjectOfType<Joystick>();
-
+        Invoke("setMovableTrue", 1f);
     }
 
     //void FixedUpdate()
@@ -86,15 +86,30 @@ public class playerController : MonoBehaviour
     //    //}
     //}
 
-
+    void setMovableTrue()
+    {
+        isMovable = true;
+    }
     void FixedUpdate()
     {
-        Vector3 movementDirection = new Vector3(Joystick.Horizontal, 0, Joystick.Vertical);
-        ray = new Ray(transform.position, movementDirection);
-        if (Physics.Raycast(ray, out hit))
+        if (isMovable)
         {
-            Vector3 force = (hit.point - transform.position).normalized * speed;
-            rb.AddForce(force);
+            Vector3 movementDirection = new Vector3(Joystick.Horizontal, 0, Joystick.Vertical);
+
+            if (movementDirection.magnitude >= 0.1f)
+            {
+                float targetAngle = Mathf.Atan2(movementDirection.x, movementDirection.z) * Mathf.Rad2Deg;
+                float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref rotationSpeed, 0.1f);
+                transform.rotation = Quaternion.Euler(0f, angle, 0f);
+
+                Vector3 moveDirection = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+                transform.Translate(moveDirection.normalized * speed * Time.deltaTime, Space.World);
+            }
+            else
+            {
+                rb.velocity = Vector3.zero;
+                rb.angularVelocity = Vector3.zero;
+            }
         }
     }
 
@@ -110,19 +125,12 @@ public class playerController : MonoBehaviour
             animator.enabled = false;
             Debug.Log("isStartAnimDone set 2, 1 ");
         }
-
-        if (collision.gameObject.CompareTag("Wall"))
-        {
-            rb.velocity = Vector3.zero; // Set velocity to zero to prevent further movement
-            rb.angularVelocity = Vector3.zero; // Set angular velocity to zero to prevent rotation
-        }
-
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Spring"))
         {
-            rb.AddForce(Vector3.up * 7f, ForceMode.Impulse);
+            rb.AddForce(Vector3.up * impulseVelocity, ForceMode.Impulse);
         }
     }
 
