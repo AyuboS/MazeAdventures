@@ -26,11 +26,12 @@ public class playerController : MonoBehaviour
     //protected JoystickManager JoyManager;
 
     protected bool Jump;
-
+    private Vector3 moveDirection = Vector3.zero;
 
     private void Awake()
     {
         Time.timeScale = 1;
+
     }
     private void Start()
     {
@@ -41,65 +42,44 @@ public class playerController : MonoBehaviour
 
     }
 
-    //void FixedUpdate()
-    //{
-    //    ray = cam.ScreenPointToRay(Input.mousePosition);
-
-    //    if (Input.GetMouseButton(0) && Physics.Raycast(ray, out hit))
-    //    {
-    //        if (hit.collider == planeCollider)
-    //        {
-    //            // Calculate the force to apply to the ball.
-    //            Vector3 force = (hit.point - transform.position).normalized * speed;
-
-    //            // Add the force to the ball's rigidbody.
-    //            GetComponent<Rigidbody>().AddForce(force);
-    //        }
-    //    }
-
-
-    //}
-
-    //void Update()
-    //{
-    //    // Apply movement based on joystick input
-    //    Vector3 movementDirection = new Vector3(Joystick.Horizontal, 0, Joystick.Vertical);
-
-    //    // Normalize movement direction to prevent diagonal movement speedup
-    //    movementDirection.Normalize();
-
-    //    // Multiply normalized movement direction by a suitable speed
-    //    movementDirection *= 3f;
-
-    //    // Update rigidbody velocity
-    //    rb.velocity = movementDirection;
-
-    //    //// Handle jumping logic
-    //    //if (!Jump && JoyManager.Pressed)
-    //    //{
-    //    //    Jump = true;
-    //    //    rb.velocity += Vector3.up * 8f;
-    //    //}
-    //    //else if (Jump && !JoyManager.Pressed)
-    //    //{
-    //    //    Jump = false;
-    //    //}
-    //}
-
+    private void Update()
+    {
+        Application.targetFrameRate = 90;
+    }
 
     void FixedUpdate()
     {
-        Vector3 movementDirection = new Vector3(Joystick.Horizontal, 0, Joystick.Vertical);
-        ray = new Ray(transform.position, movementDirection);
-        if (Physics.Raycast(ray, out hit))
-        {
-            Vector3 force = (hit.point - transform.position).normalized * speed;
-            rb.AddForce(force);
-        }
+        //Vector3 movementDirection = new Vector3(Joystick.Horizontal, 0, Joystick.Vertical);
+        //ray = new Ray(transform.position, movementDirection);
+        //if (Physics.Raycast(ray, out hit))
+        //{
+        //    Vector3 force = (hit.point - transform.position).normalized * speed;
+        //    rb.AddForce(force);
+        //}
+
+        rb.AddForce(moveDirection * speed);
     }
 
 
+    public void MoveLeft(bool isPressed)
+    {
+        moveDirection = isPressed ? Vector3.left : Vector3.zero;
+    }
 
+    public void MoveRight(bool isPressed)
+    {
+        moveDirection = isPressed ? Vector3.right : Vector3.zero;
+    }
+
+    public void MoveUp(bool isPressed)
+    {
+        moveDirection = isPressed ? Vector3.forward : Vector3.zero;
+    }
+
+    public void MoveDown(bool isPressed)
+    {
+        moveDirection = isPressed ? Vector3.back : Vector3.zero;
+    }
 
 
 

@@ -1,16 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
-using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine;
 
 public class Greetings : MonoBehaviour
 {
-    private TextMeshProUGUI greet;
+    public Text greet;
     public float fadeSpeed = 0.5f;
     void Start()
     {
-        greet = GetComponent<TextMeshProUGUI>();
+
     }
 
     void Update()

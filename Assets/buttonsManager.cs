@@ -10,7 +10,6 @@ public class buttonsManager : MonoBehaviour
     [SerializeField] GameObject PausePanel;
     [SerializeField] Animator animator;
 
-    [SerializeField] Button B_restart;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,11 +37,7 @@ public class buttonsManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
-    public void Butt_Restart()
-    {
-        B_restart.transform.localScale = Vector3.one * 0.6f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
+
 
     public void Back2MainMenu()
     {

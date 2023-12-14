@@ -1,23 +1,72 @@
-using System.Collections;
 using System.Collections.Generic;
-using System.Numerics;
+using System;
 using UnityEngine;
+using System.Collections;
 
+[Serializable]
 public class PlayerDamageManager : MonoBehaviour
 {
-    [SerializeField] playerController PlayerController;
-    [SerializeField] GameObject P_GameOver;
+    [SerializeField] private playerController PlayerController;
+    [SerializeField] private GameObject P_GameOver;
+    [SerializeField] private List<GameObject> _lifes;
+
+    int life = 3;
+    bool isDead = false;
+    float currentTime = 0f, startingTime = 2f;
+    int collisionCount = 0; // Added variable to track collision count
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Obstacle"))
         {
+            collisionCount++; // Increment collision count
 
-            Renderer playerRenderer = GetComponent<Renderer>();
-            StartCoroutine(DissolvePlayer(playerRenderer));
-            PlayerController.enabled = false;
-            P_GameOver.SetActive(true);
+            if (_lifes.Count > 0)
+            {
+                Destroy(_lifes[0]);
+                _lifes.RemoveAt(0);
+            }
 
+            if (collisionCount < 3) // Teleport for first and second collision
+            {
+                toDefaultPos();
+                life--;
+                Debug.Log("Life is decreasing");
+
+                if (life == 0)
+                {
+                    isDead = true;
+                    Debug.Log("isDead is true");
+                }
+
+                if (isDead)
+                {
+                    Renderer playerRenderer = GetComponent<Renderer>();
+                    StartCoroutine(DissolvePlayer(playerRenderer));
+                    PlayerController.enabled = false;
+                    P_GameOver.SetActive(true);
+
+                    life = 3;
+                    Debug.Log("U r dead");
+                }
+            }
+            else // Game over on third collision
+            {
+                isDead = true;
+                Renderer playerRenderer = GetComponent<Renderer>();
+                StartCoroutine(DissolvePlayer(playerRenderer));
+                PlayerController.enabled = false;
+                P_GameOver.SetActive(true);
+
+                life = 3;
+                Debug.Log("You have lost all your lives. Game over!");
+            }
         }
+    }
+
+    public void toDefaultPos()
+    {
+        transform.position = new Vector3(-17, 2, 15);
     }
 
     private IEnumerator DissolvePlayer(Renderer playerRenderer)
@@ -36,5 +85,4 @@ public class PlayerDamageManager : MonoBehaviour
 
         Time.timeScale = 0;
     }
-
 }

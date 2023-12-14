@@ -39,6 +39,7 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
     private Camera cam;
 
     private Vector2 input = Vector2.zero;
+    internal float Rotation;
 
     protected virtual void Start()
     {

@@ -6,7 +6,6 @@ public class CameraController : MonoBehaviour
     public Vector3 offset = new Vector3(0, 2, -5);
     public float smoothFollowSpeed = 5f;
     public float smoothRotationSpeed = 5f;
-    public float targetRotationX = 30f;
 
     private Quaternion initialRotation;
 
